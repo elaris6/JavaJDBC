@@ -2,13 +2,10 @@ package buenaspracticasjdbc.datos;
 
 /* Data Access Object - DAO */
 
-/* Siguiendo el patrón de diseño DAO, se debe crear una clase de acceso a datos
-* para cada entidad que maneje la aplicación.
-* Esta clase será la encargada de realizar cualquier interacción con los datos
-* de este tipo de dominio o entidad.
-* Lo ideal es crear una interfaz con los métodos abstractos y posteriormente
-* implementar las distintas clases necesarias según el tipo de gestión a
-* realizar con esa entidad (BBDD, Ficheros, webservices...). */
+/* En esta clase se implementa el acceso a datos con la tecnología concreta
+* deseada, en este caso JDBC.
+* Podría haber otras clases hijas de la interfaz DAO, para implementar el acceso
+* a datos con otras tecnologías, JPA, WS... */
 
 import buenaspracticasjdbc.domain.PersonaDTO;
 

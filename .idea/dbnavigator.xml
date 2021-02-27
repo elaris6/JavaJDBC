@@ -32,7 +32,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="d8c4514f-4c96-485a-9bba-781e3dea522a">
-      <console name="Connection" type="STANDARD" schema="test" session="Main"><![CDATA[select * from test.persona;]]></console>
+      <console name="Connection" type="STANDARD" schema="test" session="Main"><![CDATA[select * from test.usuario;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -69,7 +69,7 @@
     <connections>
       <connection id="d8c4514f-4c96-485a-9bba-781e3dea522a" active="true">
         <database>
-          <name value="Connection" />
+          <name value="MySQL Local" />
           <description value="BBDD Local" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />

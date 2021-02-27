@@ -5,7 +5,7 @@ import buenaspracticasjdbc.domain.UsuarioDTO;
 import java.sql.*;;
 import java.util.*;
 
-public class UsuarioJDBC {
+public class UsuarioDAOJDBC implements UsuarioDAO{
 
     /* Sentencias SQL requeridas */
 
